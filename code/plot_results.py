@@ -11,7 +11,7 @@ from matplotlib import font_manager
 from matplotlib.lines import Line2D
 
 BASE = Path(__file__).resolve().parent
-OUT = BASE.parent/'paper/6ad7d74c9659ce1c2cff5692/figures'
+OUT = BASE.parent/'6ad7d74c9659ce1c2cff5692/figures'
 FONT = Path('/System/Library/Fonts/Supplemental/Times New Roman.ttf')
 if FONT.exists():
     font_manager.fontManager.addfont(str(FONT))

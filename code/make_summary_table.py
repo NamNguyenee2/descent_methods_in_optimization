@@ -28,4 +28,4 @@ for start in [1, 2]:
     lines.append(r'\midrule')
 lines[-1] = r'\bottomrule'
 lines += [r'\end{tabular*}', r'\endgroup', r'\end{table*}']
-(base.parent/'paper/6ad7d74c9659ce1c2cff5692/summary_table.tex').write_text('\n'.join(lines)+'\n')
+(base.parent/'6ad7d74c9659ce1c2cff5692/summary_table.tex').write_text('\n'.join(lines)+'\n')

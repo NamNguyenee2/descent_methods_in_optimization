@@ -20,8 +20,8 @@ The existing interpreter `/tmp/hw6-check-env/bin/python` was used for the delive
 - `line_search.py`: self-written search routines. No optimizer from a library is used.
 - `results/summary.json`: scalar metrics, status, evaluation counts, and restart counts for every run.
 - `results/*.npz`: every iterate, objective, gradient norm, and accepted step.
-- `results/convergence.pdf`: convergence diagnostic, also included as `figures/convergence.pdf` in the paper.
-- `../paper/6ad7d74c9659ce1c2cff5692/figures`: six four-panel trajectory PDFs, one convergence PDF, and PNG previews.
+- `results/convergence.pdf`: convergence diagnostic, also saved as the optional paper asset `figures/convergence.pdf`.
+- `../6ad7d74c9659ce1c2cff5692/figures`: six four-panel trajectory PDFs, one convergence PDF, and PNG previews.
 
 ## Numerical choices
 
@@ -41,8 +41,8 @@ Objective counts include outer monitoring and unique inner-search calls. Gradien
 
 `checks.py` compares analytic derivatives against central finite differences at four representative points for both objectives, checks both scalar searches on independently known minima, confirms that quadratic interpolation actually proposes the parabola minimizer, and checks all 24 histories. It verifies the fixed and candidate steps, Newton updates, Fletcher-Reeves recurrence with restarts, descent of line-search configurations, and stopping status.
 
-Each paper figure has four panels: rows identify f1 and f2, columns display the actual initial points as x^0=(1.5,2) and x^0=(4,5). Gray lines are objective level curves, colored lines connect every stored iterate, sparse dots indicate iterates, circles mark the start, squares the final iterate, and stars the known minimizer. Axes limits are shared across methods for each problem/start so excursions are not hidden. Plot text is Times New Roman at 8.5 points, tick labels at 7.5 points, status annotations at 7 points, and contour labels at 5.5 points at the native 3.45-inch figure width. Contour levels use a geometric sequence and labels are rounded to two significant digits.
+Each paper figure has four panels: rows identify a=1 and a=100, columns display the actual initial points as x^0=(1.5,2) and x^0=(4,5). Gray lines are objective level curves, colored lines connect every stored iterate, sparse dots indicate iterates, circles mark the start, squares the final iterate, and stars the known minimizer. Axes limits are shared across methods for each problem/start so excursions are not hidden. Plot text is Times New Roman at 8.5 points, tick labels at 7.5 points, status annotations at 7 points, and contour labels at 5.5 points at the native 3.45-inch figure width. Contour levels use a geometric sequence and labels are rounded to two significant digits.
 
-22 of 24 runs meet the tolerance. Constant-step runs for a=100 both reach the iteration cap and are clearly labeled `limit`. All raw data are retained. The paper contains figures, a 24-run comparison table, and the authorized parameter summary, without comparative results-analysis prose.
+22 of 24 runs meet the tolerance. Constant-step runs for a=100 both reach the iteration cap and are clearly labeled `limit`. All raw data are retained. The paper contains figures, a 24-run comparison table, and the authorized parameter summary, with method-specific analysis and a comparative discussion.
 
 `make_summary_table.py` generates `summary_table.tex` from the saved JSON metrics. No experiment rerun is needed for formatting changes.
