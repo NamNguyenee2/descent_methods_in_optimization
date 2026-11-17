@@ -1,0 +1,554 @@
+[
+  {
+    "method": "constant",
+    "a": 1,
+    "x0": [
+      1.5,
+      2.0
+    ],
+    "x": [
+      1.0011154460246476,
+      1.0026937935707858
+    ],
+    "iterations": 3722,
+    "f": 1.4573472980751662e-06,
+    "gradient_norm": 0.0009992942564090394,
+    "status": "converged",
+    "evaluations": {
+      "f": 3723,
+      "g": 3723,
+      "h": 0
+    },
+    "restarts": 0,
+    "key": "constant_a1_start1"
+  },
+  {
+    "method": "constant",
+    "a": 1,
+    "x0": [
+      4.0,
+      5.0
+    ],
+    "x": [
+      1.0011144628341184,
+      1.0026914184079747
+    ],
+    "iterations": 5337,
+    "f": 1.4547796282554309e-06,
+    "gradient_norm": 0.000998414244184736,
+    "status": "converged",
+    "evaluations": {
+      "f": 5338,
+      "g": 5338,
+      "h": 0
+    },
+    "restarts": 0,
+    "key": "constant_a1_start2"
+  },
+  {
+    "method": "constant",
+    "a": 100,
+    "x0": [
+      1.5,
+      2.0
+    ],
+    "x": [
+      1.3352274784767502,
+      1.7839334930401411
+    ],
+    "iterations": 20000,
+    "f": 0.11249869866854359,
+    "gradient_norm": 0.2351196055507026,
+    "status": "iteration_limit",
+    "evaluations": {
+      "f": 20001,
+      "g": 20001,
+      "h": 0
+    },
+    "restarts": 0,
+    "key": "constant_a100_start1"
+  },
+  {
+    "method": "constant",
+    "a": 100,
+    "x0": [
+      4.0,
+      5.0
+    ],
+    "x": [
+      2.175202816461267,
+      4.734073119941985
+    ],
+    "iterations": 20000,
+    "f": 1.381760006741011,
+    "gradient_norm": 0.5265412972247466,
+    "status": "iteration_limit",
+    "evaluations": {
+      "f": 20001,
+      "g": 20001,
+      "h": 0
+    },
+    "restarts": 0,
+    "key": "constant_a100_start2"
+  },
+  {
+    "method": "variable",
+    "a": 1,
+    "x0": [
+      1.5,
+      2.0
+    ],
+    "x": [
+      1.0010739533955428,
+      1.0025935568605409
+    ],
+    "iterations": 126,
+    "f": 1.3509532063831237e-06,
+    "gradient_norm": 0.0009621543541974958,
+    "status": "converged",
+    "evaluations": {
+      "f": 505,
+      "g": 127,
+      "h": 0
+    },
+    "restarts": 0,
+    "key": "variable_a1_start1"
+  },
+  {
+    "method": "variable",
+    "a": 1,
+    "x0": [
+      4.0,
+      5.0
+    ],
+    "x": [
+      1.0011052063675194,
+      1.0026690555696671
+    ],
+    "iterations": 237,
+    "f": 1.4307154094556732e-06,
+    "gradient_norm": 0.000990128659534449,
+    "status": "converged",
+    "evaluations": {
+      "f": 949,
+      "g": 238,
+      "h": 0
+    },
+    "restarts": 0,
+    "key": "variable_a1_start2"
+  },
+  {
+    "method": "variable",
+    "a": 100,
+    "x0": [
+      1.5,
+      2.0
+    ],
+    "x": [
+      1.0011186948281146,
+      1.0022431146897015
+    ],
+    "iterations": 11355,
+    "f": 1.2534793882007196e-06,
+    "gradient_norm": 0.0009996966056812547,
+    "status": "converged",
+    "evaluations": {
+      "f": 45421,
+      "g": 11356,
+      "h": 0
+    },
+    "restarts": 0,
+    "key": "variable_a100_start1"
+  },
+  {
+    "method": "variable",
+    "a": 100,
+    "x0": [
+      4.0,
+      5.0
+    ],
+    "x": [
+      0.9988832460428458,
+      0.997763267421484
+    ],
+    "iterations": 15386,
+    "f": 1.2491391035707908e-06,
+    "gradient_norm": 0.0009997485045541877,
+    "status": "converged",
+    "evaluations": {
+      "f": 61545,
+      "g": 15387,
+      "h": 0
+    },
+    "restarts": 0,
+    "key": "variable_a100_start2"
+  },
+  {
+    "method": "quadratic",
+    "a": 1,
+    "x0": [
+      1.5,
+      2.0
+    ],
+    "x": [
+      1.0007918299870129,
+      1.0019439511201333
+    ],
+    "iterations": 21,
+    "f": 7.563530301201583e-07,
+    "gradient_norm": 0.0007335735234775425,
+    "status": "converged",
+    "evaluations": {
+      "f": 864,
+      "g": 22,
+      "h": 0
+    },
+    "restarts": 0,
+    "key": "quadratic_a1_start1"
+  },
+  {
+    "method": "quadratic",
+    "a": 1,
+    "x0": [
+      4.0,
+      5.0
+    ],
+    "x": [
+      1.000990142422929,
+      1.0024476851137512
+    ],
+    "iterations": 45,
+    "f": 1.1979295276237026e-06,
+    "gradient_norm": 0.0009396299321843425,
+    "status": "converged",
+    "evaluations": {
+      "f": 1839,
+      "g": 46,
+      "h": 0
+    },
+    "restarts": 0,
+    "key": "quadratic_a1_start2"
+  },
+  {
+    "method": "quadratic",
+    "a": 100,
+    "x0": [
+      1.5,
+      2.0
+    ],
+    "x": [
+      1.0010998399981068,
+      1.0022056031341344
+    ],
+    "iterations": 501,
+    "f": 1.2118697201386485e-06,
+    "gradient_norm": 0.0009930532799019042,
+    "status": "converged",
+    "evaluations": {
+      "f": 20510,
+      "g": 502,
+      "h": 0
+    },
+    "restarts": 0,
+    "key": "quadratic_a100_start1"
+  },
+  {
+    "method": "quadratic",
+    "a": 100,
+    "x0": [
+      4.0,
+      5.0
+    ],
+    "x": [
+      0.998949414213823,
+      0.997894983960048
+    ],
+    "iterations": 5309,
+    "f": 1.1061789605529702e-06,
+    "gradient_norm": 0.000997374336039425,
+    "status": "converged",
+    "evaluations": {
+      "f": 222363,
+      "g": 5310,
+      "h": 0
+    },
+    "restarts": 0,
+    "key": "quadratic_a100_start2"
+  },
+  {
+    "method": "golden",
+    "a": 1,
+    "x0": [
+      1.5,
+      2.0
+    ],
+    "x": [
+      1.0007918216548095,
+      1.001943930520473
+    ],
+    "iterations": 21,
+    "f": 7.56337013580339e-07,
+    "gradient_norm": 0.0007335656450309763,
+    "status": "converged",
+    "evaluations": {
+      "f": 1005,
+      "g": 22,
+      "h": 0
+    },
+    "restarts": 0,
+    "key": "golden_a1_start1"
+  },
+  {
+    "method": "golden",
+    "a": 1,
+    "x0": [
+      4.0,
+      5.0
+    ],
+    "x": [
+      1.0009900982323026,
+      1.0024475749566781
+    ],
+    "iterations": 45,
+    "f": 1.1978217882990857e-06,
+    "gradient_norm": 0.0009395866938622441,
+    "status": "converged",
+    "evaluations": {
+      "f": 2163,
+      "g": 46,
+      "h": 0
+    },
+    "restarts": 0,
+    "key": "golden_a1_start2"
+  },
+  {
+    "method": "golden",
+    "a": 100,
+    "x0": [
+      1.5,
+      2.0
+    ],
+    "x": [
+      1.0011007783047374,
+      1.0022074860314822
+    ],
+    "iterations": 501,
+    "f": 1.2139385541251974e-06,
+    "gradient_norm": 0.0009939125962032866,
+    "status": "converged",
+    "evaluations": {
+      "f": 23930,
+      "g": 502,
+      "h": 0
+    },
+    "restarts": 0,
+    "key": "golden_a100_start1"
+  },
+  {
+    "method": "golden",
+    "a": 100,
+    "x0": [
+      4.0,
+      5.0
+    ],
+    "x": [
+      0.9989511233019431,
+      0.9978984041120151
+    ],
+    "iterations": 5317,
+    "f": 1.102585291009002e-06,
+    "gradient_norm": 0.0009961217903448818,
+    "status": "converged",
+    "evaluations": {
+      "f": 256803,
+      "g": 5318,
+      "h": 0
+    },
+    "restarts": 0,
+    "key": "golden_a100_start2"
+  },
+  {
+    "method": "newton",
+    "a": 1,
+    "x0": [
+      1.5,
+      2.0
+    ],
+    "x": [
+      1.0000018518229237,
+      1.000002527051287
+    ],
+    "iterations": 4,
+    "f": 4.813630970010389e-12,
+    "gradient_norm": 8.733064399877784e-06,
+    "status": "converged",
+    "evaluations": {
+      "f": 5,
+      "g": 5,
+      "h": 4
+    },
+    "restarts": 0,
+    "key": "newton_a1_start1"
+  },
+  {
+    "method": "newton",
+    "a": 1,
+    "x0": [
+      4.0,
+      5.0
+    ],
+    "x": [
+      1.0000000909735447,
+      1.0000001819136204
+    ],
+    "iterations": 5,
+    "f": 8.276186955542895e-15,
+    "gradient_norm": 1.8208101060123244e-07,
+    "status": "converged",
+    "evaluations": {
+      "f": 6,
+      "g": 6,
+      "h": 5
+    },
+    "restarts": 0,
+    "key": "newton_a1_start2"
+  },
+  {
+    "method": "newton",
+    "a": 100,
+    "x0": [
+      1.5,
+      2.0
+    ],
+    "x": [
+      1.0000000011162076,
+      1.0000000022324105
+    ],
+    "iterations": 5,
+    "f": 1.2459193433237002e-18,
+    "gradient_norm": 2.23428051094835e-09,
+    "status": "converged",
+    "evaluations": {
+      "f": 6,
+      "g": 6,
+      "h": 5
+    },
+    "restarts": 0,
+    "key": "newton_a100_start1"
+  },
+  {
+    "method": "newton",
+    "a": 100,
+    "x0": [
+      4.0,
+      5.0
+    ],
+    "x": [
+      1.0000000000000853,
+      0.9999987608990707
+    ],
+    "iterations": 4,
+    "f": 1.5353715356171064e-10,
+    "gradient_norm": 0.0005541428581985936,
+    "status": "converged",
+    "evaluations": {
+      "f": 5,
+      "g": 5,
+      "h": 4
+    },
+    "restarts": 0,
+    "key": "newton_a100_start2"
+  },
+  {
+    "method": "fletcher_reeves",
+    "a": 1,
+    "x0": [
+      1.5,
+      2.0
+    ],
+    "x": [
+      1.0005734115125573,
+      1.0013872026337487
+    ],
+    "iterations": 5,
+    "f": 3.864251530928937e-07,
+    "gradient_norm": 0.0005148973775299408,
+    "status": "converged",
+    "evaluations": {
+      "f": 244,
+      "g": 6,
+      "h": 0
+    },
+    "restarts": 2,
+    "key": "fletcher_reeves_a1_start1"
+  },
+  {
+    "method": "fletcher_reeves",
+    "a": 1,
+    "x0": [
+      4.0,
+      5.0
+    ],
+    "x": [
+      1.0002937308388395,
+      1.0007102946943038
+    ],
+    "iterations": 11,
+    "f": 1.0134456757607234e-07,
+    "gradient_norm": 0.00026371691951669065,
+    "status": "converged",
+    "evaluations": {
+      "f": 533,
+      "g": 12,
+      "h": 0
+    },
+    "restarts": 5,
+    "key": "fletcher_reeves_a1_start2"
+  },
+  {
+    "method": "fletcher_reeves",
+    "a": 100,
+    "x0": [
+      1.5,
+      2.0
+    ],
+    "x": [
+      1.0000067588248558,
+      1.0000135447593292
+    ],
+    "iterations": 15,
+    "f": 4.575495909432916e-11,
+    "gradient_norm": 6.0452577126572665e-06,
+    "status": "converged",
+    "evaluations": {
+      "f": 753,
+      "g": 16,
+      "h": 0
+    },
+    "restarts": 7,
+    "key": "fletcher_reeves_a100_start1"
+  },
+  {
+    "method": "fletcher_reeves",
+    "a": 100,
+    "x0": [
+      4.0,
+      5.0
+    ],
+    "x": [
+      0.9999708263966104,
+      0.9999415370199451
+    ],
+    "iterations": 45,
+    "f": 8.524592592119561e-10,
+    "gradient_norm": 2.609429305100903e-05,
+    "status": "converged",
+    "evaluations": {
+      "f": 2198,
+      "g": 46,
+      "h": 0
+    },
+    "restarts": 22,
+    "key": "fletcher_reeves_a100_start2"
+  }
+]
